@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Tailwind Global Styles */
+body {
+  @apply font-sans bg-nude text-gray-900 min-h-screen;
+}
+
+/* ✨ Optional: Custom Scrollbar (nice for aesthetic) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f8c8dc; /* blush */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fbe8e7; /* nude */
+}
